@@ -12,7 +12,7 @@ from PIL import Image
 from sklearn import datasets
   
 # loading in the model to predict on the data
-pickle_in = open('virtual_env/house_price_regression/model1.pkl', 'rb')
+pickle_in = open('https://github.com/barakabrave/houseprice_prediction/blob/main/model1.pkl', 'rb')
 model1 = pickle.load(pickle_in)
 #model=pd.read_csv("C:\Users\BRAVE BARAKA\Breast cancer prediction\data.csv")
 def welcome():
